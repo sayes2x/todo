@@ -1,0 +1,48 @@
+.filter-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 'Active Complete All';
+  grid-column-gap: 15px;
+}
+.display-active {
+  grid-area: Active;
+  height: 30px;
+  background-color: white;
+  border: 2px solid #C1C0B9;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+.display-active:hover {
+	background: gainsboro;
+	font-weight: bold;
+	border: 2px solid black;
+}
+.display-done {
+  grid-area: Complete;
+  height: 30px;
+  background-color: white;
+  border: 2px solid #C1C0B9;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+.display-done:hover {
+	background: gainsboro;
+	font-weight: bold;
+	border: 2px solid black;
+}
+.display-all {
+  grid-area: All;
+  height: 30px;
+  background-color: white;
+  border: 2px solid #C1C0B9;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+.display-all:hover {
+	background: gainsboro;
+	font-weight: bold;
+	border: 2px solid black;
+}
+button:focus {
+  outline: 0;
+}

@@ -8,9 +8,9 @@
 }
 .text {
   height: 30px;
-  border: 2px solid #C1C0B9;
+  border: 2px solid #c1c0b9;
   border-radius: 5px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 .submit-row {
@@ -20,16 +20,16 @@
   height: 30px;
   width: 350px;
   background-color: white;
-  border: 2px solid #C1C0B9;
+  border: 2px solid #c1c0b9;
   border-radius: 5px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   justify-self: center;
 }
 .submit:hover {
-	background: gainsboro;
-	font-weight: bold;
-	border: 2px solid black;
+  background: gainsboro;
+  font-weight: bold;
+  border: 2px solid black;
 }
 input:focus {
-  outline:0;
+  outline: 0;
 }

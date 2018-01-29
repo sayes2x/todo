@@ -2,23 +2,21 @@
   list-style-type: none;
   display: flex;
   height: 25px;
-  border: 2px solid #C1C0B9;
+  border: 2px solid #c1c0b9;
   border-radius: 5px;
   margin: 5px 0;
-
 }
 .task-item {
   margin-right: auto;
   margin-left: 5px;
   align-self: center;
   max-width: 250px;
-
 }
 ul {
   padding: 0;
 }
 .done {
-  background-color: #A9ECA2;
+  background-color: #a9eca2;
 }
 .task-done {
   background-color: ForestGreen;
@@ -27,9 +25,9 @@ ul {
   width: 25px;
 }
 .task-done:hover {
-	background: lightgreen;
-	color: ForestGreen;
-	box-shadow: inset 0 0 0 3px ForestGreen;
+  background: lightgreen;
+  color: ForestGreen;
+  box-shadow: inset 0 0 0 3px ForestGreen;
 }
 .task-remove {
   background-color: FireBrick;
@@ -38,9 +36,9 @@ ul {
   width: 25px;
 }
 .task-remove:hover {
-	background: lightpink;
-	color: FireBrick;
-	box-shadow: inset 0 0 0 3px FireBrick;
+  background: lightpink;
+  color: FireBrick;
+  box-shadow: inset 0 0 0 3px FireBrick;
 }
 button:focus {
   outline: 0;

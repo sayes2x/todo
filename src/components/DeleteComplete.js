@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Styles from "./DeleteComplete.css";
 
 // this generates the button to delete all completed tasks
@@ -11,7 +11,7 @@ export default class DeleteComplete extends React.Component {
   deleteCompleteTasks = () => {
     this.props.onDeleteAllCompleteTasks();
     return;
-  }
+  };
 
   render() {
     return (
@@ -20,8 +20,10 @@ export default class DeleteComplete extends React.Component {
           type="button"
           className="delete"
           onClick={this.deleteCompleteTasks}
-        >Delete All Complete Tasks</button>
+        >
+          Delete All Complete Tasks
+        </button>
       </div>
     );
-  };
-};
+  }
+}
